@@ -5,7 +5,9 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	
+	<version>0.0.1-SNAPSHOT</version> 
+	
 	<name>maven-web-application</name>
 
 	<description>Maven Web Project for Java Project</description>
@@ -25,7 +27,6 @@
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 	</properties>
 
 	<dependencies>
@@ -91,9 +92,6 @@
 		</dependency>
 		
 	</dependencies>
-	
-
-	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
